@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Simple calculator skeleton
+ * main - Simple calculator menu
  *
  * Return: Always 0
  */
@@ -25,8 +25,8 @@ int main(void)
 
 		if (choice == 0)
 			printf("Bye!\n");
-		else if (choice < 0 || choice > 4)
-			printf("Invalid choice. Try again.\n");
+		else if (choice < 1 || choice > 4)
+			printf("Invalid choice\n");
 
 	} while (choice != 0);
 
