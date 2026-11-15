@@ -1,12 +1,12 @@
 
 /**
- * find_root - searches recursively for the natural square root
+ * find_root - searches for the natural square root
  * @n: the number to check
  * @guess: the current candidate
  *
  * Return: the square root, or -1 if none exists
  */
-static int find_root(int n, int guess)
+int find_root(int n, int guess)
 {
 	if (guess > n / guess)
 		return (-1);
