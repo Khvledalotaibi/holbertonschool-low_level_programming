@@ -14,3 +14,7 @@ This project covers command-line arguments in C.
 ## 3. Multiply
 
 `3-mul.c` multiplies two integer command-line arguments.
+
+## 4. Add positive numbers
+
+`4-add.c` validates and adds the supplied positive integer arguments.
