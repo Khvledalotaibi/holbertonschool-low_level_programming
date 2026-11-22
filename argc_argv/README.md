@@ -10,3 +10,7 @@ This project covers command-line arguments in C.
 ## 2. Arguments
 
 `2-args.c` prints every command-line argument, including the program name.
+
+## 3. Multiply
+
+`3-mul.c` multiplies two integer command-line arguments.
