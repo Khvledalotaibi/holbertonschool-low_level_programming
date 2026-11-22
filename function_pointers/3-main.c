@@ -4,6 +4,13 @@
 #include <string.h>
 #include "3-calc.h"
 
+/**
+ * main - runs the calculator
+ * @argc: number of command-line arguments
+ * @argv: command-line argument values
+ * Return: 0 on success
+ */
+
 int main(int argc, char *argv[])
 {
 	int a, b;
