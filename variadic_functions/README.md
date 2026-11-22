@@ -10,3 +10,7 @@ This project practices variadic functions in C.
 ## 1. Print numbers
 
 `print_numbers` prints its integer arguments separated by the optional separator.
+
+## 2. Print strings
+
+`print_strings` prints its string arguments, using `(nil)` for NULL strings.
