@@ -14,3 +14,7 @@ This project practices variadic functions in C.
 ## 2. Print strings
 
 `print_strings` prints its string arguments, using `(nil)` for NULL strings.
+
+## 3. Print anything
+
+`print_all` prints arguments according to the format characters `c`, `i`, `f`, and `s`.
